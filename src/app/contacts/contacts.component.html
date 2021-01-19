@@ -1,0 +1,6 @@
+<p>contacts works!</p>
+
+<app-person *ngFor="let contact of contacts" 
+    [contact]="contact"
+    (enableContact)="onEnableContact($event)">
+</app-person>

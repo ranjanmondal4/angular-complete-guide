@@ -1,0 +1,7 @@
+<p>contact with id {{user.id}}</p>
+<hr>
+<hr>
+<a [routerLink]="['/contact', 10]"
+    [queryParams]="{editAllowable: 1}"
+    fragment="loading"
+    >Contact 10</a>
